@@ -193,7 +193,7 @@ if the page has a “right panel”, add a class for BODY -- ".page-has-right-pa
   height: 70px; }
 
 .header-spacer--standard {
-  height: 50px; }
+  height: 143px; }
 
 .search-bar {
   float: left;
@@ -10800,8 +10800,7 @@ ol ol li {
     overflow: hidden; }
 
 #map {
-  width: 100%;
-  max-height: 90vh; }
+  width: 100%; }
 
 /*------------- #W-FAVED-PAGE --------------*/
 .w-faved-page {

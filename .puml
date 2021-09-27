@@ -1,0 +1,44 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class User{
+    String username
+    String email
+    String password
+    String about_me
+    Date birthday
+    String birthplace
+    String occupation
+    String gender
+    ArrayList<Hobby> hobbies
+    Date joined_date
+    School school
+}
+
+class Question{
+    String question
+    User user
+}
+
+class Answer{
+    String Answer
+    User user
+    Question question
+
+}
+
+class School{
+    String name
+    String email
+    String cnpj
+    String fone
+    Date foundation_date
+    String responsible
+}
+
+
+User -- School
+Question -- User
+Answer --* Question
+Answer -- User
+@enduml
