@@ -13,6 +13,7 @@ class User{
     ArrayList<Hobby> hobbies
     Date joined_date
     School school
+    int user_level
 }
 
 class Question{
