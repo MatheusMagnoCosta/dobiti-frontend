@@ -1,4 +1,4 @@
-import Body from '../../components/body'
+import Body from '../../scripts/body'
 function App() {
   return (
     <>
